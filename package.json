@@ -1,0 +1,27 @@
+{
+  "name": "mutant-dna_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node src/index.js",
+    "dev": "set NODE_ENV=development && nodemon src/index.js",
+    "test": "set NODE_ENV=staging && jest --coverage"
+  },
+  "keywords": [],
+  "author": "Nicolas Amezquita <nicolas.amezquita.m@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "regenerator-runtime": "^0.13.9",
+    "supertest": "^6.2.3"
+  }
+}

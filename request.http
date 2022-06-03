@@ -1,0 +1,14 @@
+###
+POST http://localhost:4201/api/mutant HTTP/1.1
+content-type:application/json
+
+{
+    "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
+}
+
+
+###
+
+GET http://localhost:4201/api/stats HTTP/1.1
+content-type:application/json
+
