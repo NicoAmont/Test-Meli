@@ -35,3 +35,7 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  ## 😵‍💫PROBLEMA
  
  Magneto quiere poder analizar cadenas de bases nitrogenadas compuestas por ( A, C, T, G ), donde las cadenas están dentro de un arreglo NxN, dando la condición que el ADN que cumpla con una secuencia consecutiva de 4 de estos es un MUTANTE 🦸. 
+ 
+ El formato en que se envian estas cadenas es el siguiente:
+ 
+- dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"}
