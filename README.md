@@ -1,9 +1,9 @@
 
-##🧬 API DETECTOR DE MUTANTES 🧬
+## 🧬 API DETECTOR DE MUTANTES 🧬
 
 Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en las cadenas del ADN ingresado. Se basa en una Arquitectura limpia, en donde se dividen los diferentes endpoints para lograr una mayor agilidad en la respuesta. La forma de uso, parametros, algoritmos y estrategia estan expuestos en los siguientes items.
 
-##INDICES
+## INDICES
 
  - [Instalación](#installation)
  - [Modo de uso API](#building-apis)
