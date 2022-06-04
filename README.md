@@ -104,41 +104,49 @@ Ya con estos parametros, !! Realicemos esta tarea !!
 
 `cd Test-Meli`
 
-`npm install`
+El api esta implementada en el directorio `src`.
 
-The entire application is contained within the `app.rb` file.
+### Instala los paquetes de dependencias
 
-`config.ru` is a minimal Rack configuration for unicorn.
+    `npm install`
 
-`run-tests.sh` runs a simplistic test and generates the API
-documentation below.
+### Corre el servidor en desarrollo
 
-It uses `run-curl-tests.rb` which runs each command defined in
-`commands.yml`.
+    `npm run dev`
 
-## Install
+### Corre las pruebas de integracion 
 
-    bundle install
+    `npm run test`
 
-## Run the app
+### Corre las pruebas de stress  
 
-    unicorn -p 7000
-
-## Run the tests
-
-    ./run-tests.sh
+    `k6 run script.js`
+Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
 # REST API
 
-The REST API to the example app is described below.
+La REST API tiene los siguientes endpoints
 
-## Get list of Things
+## api/mutant/
 
-### Request
+### Peticion al servidor publico
 
-`GET /thing/`
+`POST http://54.175.116.27:3001/api/mutant HTTP/1.1
+content-type:application/json
 
-    curl -i -H 'Accept: application/json' http://localhost:7000/thing/
+{
+    "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
+}`
+
+
+### Peticion al servidor local
+
+`POST http://localhost:3001/api/mutant HTTP/1.1
+content-type:application/json
+
+{
+    "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
+}`
 
 ### Response
 
