@@ -6,8 +6,8 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
 ## 📖INDICES
 
  - [Problema](#PROBLEMA)
- - [Solución](#installation)
- - [Instalación](#installation)
+ - [Solución](#SOLUCION)
+ - [Instalación](#INSTALACION)
  - [Modo de uso API](#building-apis)
  - [Quick Reference](#quick-reference)
  - [Desplegada en AWS](#deploying)
@@ -50,3 +50,5 @@ Se debe desarrollar el anterior problema de tal manera que:
 - Se debe hostear el api en un cloud computing libre, que permita realizar las peticiones online.
 - Se debe tener en cuenta que se reciben fluctuaciones de trafico agresivas ( de 100 y 1 000 000 rqps)
 - Se debe tener un test coverage > 80%
+
+<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="30">
