@@ -5,7 +5,7 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
 
 ## 📖INDICES
 
- - [Problema](#installation)
+ - [Problema](#PROBLEMA)
  - [Solución](#installation)
  - [Instalación](#installation)
  - [Modo de uso API](#building-apis)
@@ -32,6 +32,6 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [regenerator-runtime](https://www.npmjs.com/package/regenerator-runtime) - Compilador de funciones asyncronas
  
  
- ## 😵‍💫Problema
+ ## 😵‍💫PROBLEMA
  
  Magneto quiere poder analizar cadenas de bases nitrogenadas compuestas por ( A, C, T, G ), donde las cadenas están dentro de un arreglo NxN, dando la condición que el ADN que cumpla con una secuencia consecutiva de 4 de estos es un MUTANTE 🦸. 
