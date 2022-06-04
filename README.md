@@ -218,13 +218,13 @@ HTTP/1.1 200 OK
 ```
 
 
-## :green_heart:TEST COVERAGE
+## 💚TEST COVERAGE
  
  
  <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
 
 
 
-## 🎫ANALISIS Y MEJORAS
+## 👁️‍🗨️ANALISIS Y MEJORAS
  
 <img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
