@@ -9,7 +9,6 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [Solución](#SOLUCION)
  - [Instalación](#INSTALACION)
  - [Métodos](#METODOS)
- - [Modo de uso](#USO)
  - [Quick Reference](#quick-reference)
  - [Desplegada en AWS](#deploying)
 
@@ -126,7 +125,7 @@ El api esta implementada en el directorio `src`.
     `k6 run script.js`
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
-## USO
+
 ## 🎫METODOS
  
 #### REST API
@@ -146,23 +145,33 @@ La REST API tiene los siguientes endpoints
 
 ###### Peticion al servidor local
 
-POST http://localhost:3001/api/mutant HTTP/1.1
-content-type:application/json
-{
+`POST http://localhost:3001/api/mutant HTTP/1.1`
+
+	content-type:application/json
+`{
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
-}
+}`
 
 ##### Response
-
+```bash
     HTTP/1.1 200 OK
-    Date: Thu, 24 Feb 2011 12:36:30 GMT
-    Status: 200 OK
-    Connection: close
-    Content-Type: application/json
-    Content-Length: 2
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Access-Control-Allow-Request-Method
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Allow: GET, PUT, POST, DELETE, OPTIONS
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+ETag: W/"39-9o+Z84Iq1ksYl3vceSzQU1SUGCQ"
+Date: Sat, 04 Jun 2022 07:07:17 GMT
+Connection: close
 
-    []
-
+{
+  "count_mutant_dna": 8,
+  "count_human_dna": 6,
+  "ratio": "0.57"
+}
+```
 
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
 
