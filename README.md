@@ -56,7 +56,7 @@ Ya con estos parametros, !! Realicemos esta tarea !!
 
 <img align="center" src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="20%" >
 
- ## 🗹 SOLUCION
+ ## 🗹SOLUCION
  
  Como primer parametro tenemos el algoritmo que pueda encontrar dentro de las cadenas de bases nitrogenadas una secuencia de 4 consecutivamente iguales, dejando en claro los posibles casos para esta busqueda que son horizontal, vertical y oblicuo de derecha a izquierda y de izquierda a derecha así: 
  
