@@ -16,12 +16,18 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
 
   Este proyecto fue desarrollado con varias librerias y Frameworks
   
-  ### De Producción
+  #### De Producción
   
+ - [PM"](https://pm2.io/docs/plus/overview/) - Libreria que escucha la aplicacion online y otras funcionalidades
  - [Express](https://www.npmjs.com/package/express) - Web Framework para NodeJs
  - [Mongodb](https://www.npmjs.com/package/mongodb) - Web Driver para MongoDB
  - [Mongodb](https://www.npmjs.com/package/mongoose) - Herramienta para modelado de objetos de MongoDb
  - [Dotenv](https://www.npmjs.com/package/dotenv) - libreria para implementar variables de entorno
 
- ### De Desarrollo
+ #### De Desarrollo
 
+ - [Nodemon](https://www.npmjs.com/package/nodemon) - Libreria que escucha cambios el codigo y reinicia el servidor.
+ - [Jest](https://www.npmjs.com/package/jest) - Libreria que permite realizar Test para NodeJs
+ - [Supertest](https://www.npmjs.com/package/supertest) - Libreria que ayuda a relizar Tests en el servidor
+ - [regenerator-runtime](https://www.npmjs.com/package/regenerator-runtime) - Compilador de funciones asyncronas
+ - 
