@@ -8,6 +8,6 @@ content-type:application/json
 
 ###Second enpoint
 
-GET http://localhost:8001/api/stats HTTP/1.1
+GET http://3.89.60.144:8001/mutant HTTP/1.1
 content-type:application/json
 

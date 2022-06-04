@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 require('dotenv').config();
 
 var app = express();
-var port = process.env.PORT || 4201;
+var port = process.env.PORT;
 
 var mutant_route = require('./routes/MutantRoute');
 var stats_route = require('./routes/StatsRoute');
