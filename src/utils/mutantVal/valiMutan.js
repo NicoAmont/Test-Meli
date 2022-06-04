@@ -19,6 +19,7 @@ async function isMutantDna(dna) {
     let verification = Promise.any(verificationPromises).then((result) => {
         return true
     }).catch((err) => {
+        console.log(err);
         return false
     })
     
