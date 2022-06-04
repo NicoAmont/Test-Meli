@@ -71,7 +71,7 @@ Ya con estos parametros, !! Realicemos esta tarea !!
  ```bash
 	Test-Meli
 	|--src
-  |-- config
+	|-- config
 		|-- controllers
 		|-- dal
 		|-- middlewares
@@ -80,11 +80,11 @@ Ya con estos parametros, !! Realicemos esta tarea !!
 		|-- utils
 		|--index.js
 	|--test
-  |-- integration
-  |-- setupTests.js
+  	|-- integration
+  	|-- setupTests.js
 	|--.gitignore
- |--jest.config.js
- |--package-lock.json
+ 	|--jest.config.js
+ 	|--package-lock.json
 	|--package.json
 
 ```
