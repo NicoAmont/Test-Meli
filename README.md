@@ -53,10 +53,12 @@ Se debe desarrollar el anterior problema de tal manera que:
 
 
 Ya con estos parametros, !! Realicemos esta tarea !!
-<img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
-https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif
+<img src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="100%">
+
  ## 😵‍💫SOLUCION
  
 
 
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
+
+<img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
