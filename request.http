@@ -1,4 +1,4 @@
-###
+###First enpoint
 POST http://localhost:8001/api/mutant HTTP/1.1
 content-type:application/json
 
@@ -7,7 +7,7 @@ content-type:application/json
 }
 
 
-###
+###Second enpoint
 
 GET http://localhost:8001/api/stats HTTP/1.1
 content-type:application/json
