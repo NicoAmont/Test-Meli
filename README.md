@@ -84,7 +84,6 @@ Un poco de música para ambientar la lectura 😆 https://www.youtube.com/watch?
 		|-- utils
 		|--index.js
 	|--test
-    |-- integration
     |-- setupTests.js
 	|--.gitignore
     |--jest.config.js
