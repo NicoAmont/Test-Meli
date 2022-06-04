@@ -53,7 +53,7 @@ Se debe desarrollar el anterior problema de tal manera que:
 
 
 Ya con estos parametros, !! Realicemos esta tarea !!
-<img src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="100%">
+<img src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="40%" align="center">
 
  ## 😵‍💫SOLUCION
  
