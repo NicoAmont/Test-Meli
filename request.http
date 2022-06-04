@@ -6,7 +6,6 @@ content-type:application/json
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
 }
 
-
 ###Second enpoint
 
 GET http://localhost:8001/api/stats HTTP/1.1
