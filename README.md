@@ -54,7 +54,7 @@ Se debe desarrollar el anterior problema de tal manera que:
 
 Ya con estos parametros, !! Realicemos esta tarea !!
 
-<img src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="10%" align="center">
+<img src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="40%" align="center">
 
  ## 😵‍💫SOLUCION
  
