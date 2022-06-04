@@ -96,6 +96,8 @@ Ya con estos parametros, !! Realicemos esta tarea !!
  - facil lectura
  
  
+ ## 🛰️USO
+ 
  ## ⏳INSTALACION
  
  Para instalarlo localmente sigue los siguientes pasos( recuerda tener instalado los paquetes mencionados al inicio de la documentacion y tener node superior a v15, junto con pm2 globalmente y k6 si quieres realizar las spike test):
@@ -124,8 +126,6 @@ El api esta implementada en el directorio `src`.
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
 
-## 🛰️USO
- 
 
 ### REST API
 
