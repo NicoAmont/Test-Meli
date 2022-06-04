@@ -224,7 +224,22 @@ HTTP/1.1 200 OK
  <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
 
 
-
 ## 💹ANALISIS Y MEJORAS
  
+ Para cumplir con la demanda de cambios bruscos de peticiones de 100 a 1 000 000, se implementaron pruebas de spike de estress, que corresponden a un comportamiento agresivo 
+
+ <img src="https://www.perfmatrix.com/wp-content/uploads/2019/05/Constant-Spike-Test-Graph.jpg" width="100%">
+
+lo que se presento una solucion de clusters y un balanceador de carga con nginx para que la aplicacion manjeara multuples peticiones en diferentes cores de la instancia EC2. 
+
+El manejo de la memoria aumento drasticamente al tener el balanceador y la aplicacion en multihilos.
+
+
+<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654367867/spike1_cgnj8b.png" width="100%">
+Aplicacion sin balanceador y un solo hilo
+
+<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654367867/spike1_cgnj8b.png" width="100%">
+Aplicacion con balanceador y multi-hilos
+
+
 <img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
