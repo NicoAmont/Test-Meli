@@ -56,7 +56,19 @@ Ya con estos parametros, !! Realicemos esta tarea !!
 
 <img align="center" src="https://c.tenor.com/efwrYI0TEJ8AAAAC/nod-magneto.gif" width="20%" >
 
- ## 😵‍💫SOLUCION
+ ## 🗹 SOLUCION
+ 
+ Como primer parametro tenemos el algoritmo que pueda encontrar dentro de las cadenas de bases nitrogenadas una secuencia de 4 consecutivamente iguales, dejando en claro los posibles casos para esta busqueda que son horizontal, vertical y oblicuo de derecha a izquierda y de izquierda a derecha así: 
+ 
+ <img align="center" src="https://res.cloudinary.com/lewt-copr/image/upload/v1654360149/matrizand_kfy3pb.png" width="80%" >
+ 
+ Para solucionar este algoritmo pense primero en desarrollar un loop que fuera recorriendo la matriz en estas opciones de secuencia, pero el que tuviera que esperar el proceso para que revise una tras de otra no es optimo ya que recorreriamos 4 veces la misma matriz. Con esto en mente, se desarrollo un algoritmo que hace las cuatro formas de busqueda al mismo como promesas, que a su vez en el instante que alguna de las 4 recibe un true como hallazgo del paramtro inicial, se detendran las otras. 
+ 
+ Llegue a este implementando un Promise.any, y retornando un valor que al momento de que alguna de las otras promesas terminara no continuaran, asi ahorrando memoria debido a que las promesas seguiran en un proceso detras ya sea true o false. Para esto, se determino una promesa que recibe la primer promesa que retorne un true, o en su caso de que ninguna retorne true finalizara con un false.
+ 
+ 
+ 
+ 
  
 
 
