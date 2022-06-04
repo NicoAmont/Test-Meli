@@ -23,6 +23,7 @@ async function isMutantDna(dna) {
         return false
     })
     
+    verification.catch((err) => {console.log(err)})
     return verification
     
 }
