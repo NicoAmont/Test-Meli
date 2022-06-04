@@ -241,8 +241,8 @@ Aplicacion con balanceador y multi-hilos
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654367876/spike2_v9gpkj.png" width="100%">
 
 
-El maximo uso de memoria en un solo hilo fueron 381mb frente a la aplicación mejorada 114mb. Lo que nos presenta un 30% de optimizacion.
-Tambien se analizo la velocidad de respuesta, pues cuando el servidor supera las 10.000rqs se presentan tiempos de espera a respuesta de la peticion de 36s avg. Lo que se puede solucionar implementando un algoritmo de rapida busqueda como sera las tablas hash o un algoritmo que reduzca a O(n). 
+El maximo uso de memoria en un solo hilo fueron 381mb frente a la aplicación mejorada 98mb. Lo que nos presenta un 75% de optimizacion.
+Tambien se analizo la velocidad de respuesta, pues cuando el servidor supera las 10.000rqs se presentan tiempos de espera a respuesta de la peticion de 33s avg. Lo que se puede solucionar implementando un algoritmo de rapida busqueda como sera las tablas hash o un algoritmo que reduzca a O(n). 
 
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654368563/rqs_jbs6kw.png" width="100%">
 
