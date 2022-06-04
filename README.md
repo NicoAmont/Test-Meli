@@ -233,7 +233,7 @@ HTTP/1.1 200 OK
 
  <img src="https://www.perfmatrix.com/wp-content/uploads/2019/05/Constant-Spike-Test-Graph.jpg" width="100%">
 
-Lo que se presentá, es una solucion de clustering y un balanceador de carga con nginx para que la aplicacion manjeara multuples peticiones en diferentes cores de la instancia EC2. 
+Lo que se presentá, es una solucion de clustering y un balanceador de carga con nginx para que la aplicacion maneje múltiples peticiones en diferentes cores de la instancia EC2. 
 
 El uso de memoria disminuyo drásticamente al tener el balanceador y la aplicación en multihilos.
 
