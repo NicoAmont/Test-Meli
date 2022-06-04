@@ -8,7 +8,7 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [Problema](#PROBLEMA)
  - [Solución](#SOLUCION)
  - [Instalación](#INSTALACION)
- - [Modo de uso API](#MODO-DE-USO)
+ - [Uso](#USO)
  - [Quick Reference](#quick-reference)
  - [Desplegada en AWS](#deploying)
 
@@ -124,7 +124,7 @@ El api esta implementada en el directorio `src`.
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
 
- ## 🛰️MODO DE USO
+## 🛰️USO
  
 
 ### REST API
@@ -160,47 +160,6 @@ content-type:application/json
     Content-Length: 2
 
     []
-
-## Create a new Thing
-
-### Request
-
-`POST /thing/`
-
-    curl -i -H 'Accept: application/json' -d 'name=Foo&status=new' http://localhost:7000/thing
-
-### Response
-
-    HTTP/1.1 201 Created
-    Date: Thu, 24 Feb 2011 12:36:30 GMT
-    Status: 201 Created
-    Connection: close
-    Content-Type: application/json
-    Location: /thing/1
-    Content-Length: 36
-
-    {"id":1,"name":"Foo","status":"new"}
-
-## Get a specific Thing
-
-### Request
-
-`GET /thing/id`
-
-    curl -i -H 'Accept: application/json' http://localhost:7000/thing/1
-
-### Response
-
-    HTTP/1.1 200 OK
-    Date: Thu, 24 Feb 2011 12:36:30 GMT
-    Status: 200 OK
-    Connection: close
-    Content-Type: application/json
-    Content-Length: 36
-
-    {"id":1,"name":"Foo","status":"new"}
- 
- 
 
 
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
