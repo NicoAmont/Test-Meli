@@ -128,13 +128,13 @@ Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
 ## 🎫METODOS
  
-#### REST API
+### REST API
 
 La REST API tiene los siguientes endpoints
 
-##### /api/mutant
+#### /api/mutant
 
-###### Peticion al servidor publico
+##### Peticion al servidor publico
 
 `POST http://54.175.116.27:3001/api/mutant HTTP/1.1`
 
@@ -143,7 +143,7 @@ La REST API tiene los siguientes endpoints
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
 }`
 
-###### Peticion al servidor local
+##### Peticion al servidor local
 
 `POST http://localhost:3001/api/mutant HTTP/1.1`
 
@@ -151,6 +151,7 @@ La REST API tiene los siguientes endpoints
 `{
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
 }`
+
 ##### Respuesta si es mutante
 ```bash
 HTTP/1.1 200 OK
@@ -165,7 +166,6 @@ HTTP/1.1 403 Forbideen
   "message": "Forbideen"
 }
 ```
-
 
 ##### Respuesta si ya existe en la base de datos
 ```bash
@@ -185,10 +185,9 @@ HTTP/1.1 403 Forbidden
 }
 ```
 
+#### /api/stats
 
-##### /api/stats
-
-###### Peticion al servidor publico
+##### Peticion al servidor publico
 
 `GET http://54.175.116.27:3001/api/stats HTTP/1.1`
 
@@ -197,7 +196,7 @@ HTTP/1.1 403 Forbidden
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
 }`
 
-###### Peticion al servidor local
+##### Peticion al servidor local
 
 `GET http://localhost:3001/api/stats HTTP/1.1`
 
@@ -211,17 +210,6 @@ HTTP/1.1 403 Forbidden
 ##### Response
 ```bash
 HTTP/1.1 200 OK
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Access-Control-Allow-Request-Method
-Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
-Allow: GET, PUT, POST, DELETE, OPTIONS
-Content-Type: application/json; charset=utf-8
-Content-Length: 57
-ETag: W/"39-9o+Z84Iq1ksYl3vceSzQU1SUGCQ"
-Date: Sat, 04 Jun 2022 07:07:17 GMT
-Connection: close
-
 {
   "count_mutant_dna": 8,
   "count_human_dna": 6,
