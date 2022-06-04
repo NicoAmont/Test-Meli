@@ -123,6 +123,10 @@ El api esta implementada en el directorio `src`.
     `k6 run script.js`
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
+
+ ## 🛰️MODO DE USO
+ 
+
 ## REST API
 
 La REST API tiene los siguientes endpoints
