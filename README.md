@@ -9,8 +9,8 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [Solución](#SOLUCION)
  - [Instalación](#INSTALACION)
  - [Métodos](#METODOS)
- - [Quick Reference](#quick-reference)
- - [Desplegada en AWS](#deploying)
+ - [Test Coverage](#TEST-COVERAGE)
+ - [ANALISIS Y MEJORAS](#ANALISIS-Y-MEJORAS)
 
 ## 📚LIBRERIAS
 
@@ -218,10 +218,13 @@ HTTP/1.1 200 OK
 ```
 
 
+## 🎫TEST COVERAGE
+ 
+ 
+ <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
 
 
 
-
-<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
-
+## 🎫ANALISIS Y MEJORAS
+ 
 <img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
