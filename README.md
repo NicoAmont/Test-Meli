@@ -39,3 +39,10 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  El formato en que se envian estas cadenas es el siguiente:
  
 - dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"}
+
+Se debe desarrollar el anterior problema de tal manera que:
+
+- Se implemente un algoritmo que contemple las codiciones y el resultado esperado. 
+- Se debe contar con un servicio /mutant, que determine si la petición cumple con los requisitos y además, devuelva un status(200) OK en caso de ser mutante, de lo contrario debe devolver un status(403) Forbidden.
+- Se debe contar con un servicio /stats, que determine las estaditicas de la base de datos de ADN y devuelve una respuesta con el siguiente formato : 
+  ADN: {“count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4}
