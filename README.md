@@ -234,12 +234,20 @@ lo que se presento una solucion de clusters y un balanceador de carga con nginx 
 
 El manejo de la memoria aumento drasticamente al tener el balanceador y la aplicacion en multihilos.
 
-
-<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654367867/spike1_cgnj8b.png" width="100%">
 Aplicacion sin balanceador y un solo hilo
-
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654367867/spike1_cgnj8b.png" width="100%">
+
 Aplicacion con balanceador y multi-hilos
+<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654367876/spike2_v9gpkj.png" width="100%">
 
 
+El maximo uso de memoria en un solo hilo fueron 381mb frente a la aplicación mejorada 114mb. Lo que nos presenta un 30% de optimizacion.
+Tambien se analizo la velocidad de respuesta, pues cuando el servidor supera las 10.000rqs se presentan tiempos de espera a respuesta de la peticion de 36s avg. Lo que se puede solucionar implementando un algoritmo de rapida busqueda como sera las tablas hash o un algoritmo que reduzca a O(n). 
+
+<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654368563/rqs_jbs6kw.png" width="100%">
+
+
+Como ultimo parametro se puede realizar un CI/CD con github y AWS, ademas de implemetar un scalamiento horizontal sabiendo que una instancia podra soportar 32.000 peticiones antes de quedar sin memoria. 
+
+Gracias por leer este documento, siempre abierto a mejorar 😁
 <img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
