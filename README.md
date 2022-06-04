@@ -127,16 +127,13 @@ Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
 La REST API tiene los siguientes endpoints
 
-## api/mutant/
+## /api/mutant/
 
 ### Peticion al servidor publico
 
-`POST http://54.175.116.27:3001/api/mutant HTTP/1.1
-content-type:application/json
-
-{
-    "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
-}`
+`POST http://54.175.116.27:3001/api/mutant HTTP/1.1`
+`content-type:application/json` 
+`{"dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]}`
 
 
 ### Peticion al servidor local
