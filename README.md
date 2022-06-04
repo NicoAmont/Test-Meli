@@ -54,6 +54,7 @@ Se debe desarrollar el anterior problema de tal manera que:
 
 Ya con estos parametros, !! Realicemos esta tarea !!
 <img src="<img src="https://tenor.com/by8LY.gif" width="100%">" width="100%">
+<div class="tenor-gif-embed" data-postid="20729192" data-share-method="host" data-aspect-ratio="0.89375" data-width="100%"><a href="https://tenor.com/view/nod-magneto-agree-gif-20729192">Nod Magneto GIF</a>from <a href="https://tenor.com/search/nod-gifs">Nod GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
  ## 😵‍💫SOLUCION
  
