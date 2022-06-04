@@ -53,7 +53,7 @@ Se debe desarrollar el anterior problema de tal manera que:
 
 
 Ya con estos parametros, !! Realicemos esta tarea !!
-<img src="<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">" width="100%">
+<img src="<img src="https://tenor.com/by8LY.gif" width="100%">" width="100%">
 
  ## 😵‍💫SOLUCION
  
