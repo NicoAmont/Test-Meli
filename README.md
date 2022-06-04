@@ -8,7 +8,7 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [Problema](#PROBLEMA)
  - [Solución](#SOLUCION)
  - [Instalación](#INSTALACION)
- - [Modo de uso API](#building-apis)
+ - [Modo de uso API](#modo-de-uso)
  - [Quick Reference](#quick-reference)
  - [Desplegada en AWS](#deploying)
 
