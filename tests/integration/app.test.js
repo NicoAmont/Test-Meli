@@ -33,7 +33,7 @@ describe('Magneto API', () => {
           });
       });
       
-      it('POST / should return the isMutant true', (done) => {
+      it('POST / should return the isMutant false', (done) => {
         const dnaWrong = []
         request(app)
           .post('/api/mutant')
