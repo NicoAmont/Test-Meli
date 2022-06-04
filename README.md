@@ -46,3 +46,7 @@ Se debe desarrollar el anterior problema de tal manera que:
 - Se debe contar con un servicio /mutant, que determine si la petición cumple con los requisitos y además, devuelva un status(200) OK en caso de ser mutante, de lo contrario debe devolver un status(403) Forbidden.
 - Se debe contar con un servicio /stats, que determine las estaditicas de la base de datos de ADN y devuelve una respuesta con el siguiente formato : 
   ADN: {“count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4}
+
+- Se debe hostear el api en un cloud computing libre, que permita realizar las peticiones online.
+- Se debe tener en cuenta que se reciben fluctuaciones de trafico agresivas ( de 100 y 1 000 000 rqps)
+- Se debe tener un test coverage > 80%
