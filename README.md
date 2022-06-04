@@ -90,7 +90,10 @@ Ya con estos parametros, !! Realicemos esta tarea !!
 ```
  
  
- 
+ - podemos tener un escalamiento facilmente a microservicios
+ - facilidad al realizar testing ya sea unitarias o de integracion 
+ - facil manejo e implementacion de codigo 
+ - facil lectura
  
  
  
