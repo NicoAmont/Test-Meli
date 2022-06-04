@@ -17,9 +17,9 @@ mongoose
         if (err) {
             console.log(err)
         }else{
-            console.log('Connected to MongoDB Atlas');
+            console.log('📄 Connected to MongoDB Atlas');
             app.listen(port, function(){
-                console.log('Server running at port: ' + port);
+                console.log('👌 Server running at port: ' + port);
                 });
         }   
     })
