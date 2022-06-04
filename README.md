@@ -225,6 +225,6 @@ HTTP/1.1 200 OK
 
 
 
-## 👁️‍🗨️ANALISIS Y MEJORAS
+## 💹ANALISIS Y MEJORAS
  
 <img src="https://c.tenor.com/t1D79-qgnGAAAAAC/x-men-ian-mc-kellen.gif" width="100%">
