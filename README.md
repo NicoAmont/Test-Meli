@@ -131,11 +131,12 @@ La REST API tiene los siguientes endpoints
 
 ### Peticion al servidor publico
 
-POST http://54.175.116.27:3001/api/mutant HTTP/1.1
-content-type:application/json
-{
+`POST http://54.175.116.27:3001/api/mutant HTTP/1.1`
+
+	content-type:application/json
+`{
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
-}
+}`
 
 ### Peticion al servidor local
 
