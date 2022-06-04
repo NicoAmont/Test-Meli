@@ -8,7 +8,7 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [Problema](#PROBLEMA)
  - [Solución](#SOLUCION)
  - [Instalación](#INSTALACION)
- - [Instalación2](#INSTALACION2)
+ - [Métodos](#METODOS)
  - [Modo de uso](#USO)
  - [Quick Reference](#quick-reference)
  - [Desplegada en AWS](#deploying)
@@ -126,8 +126,8 @@ El api esta implementada en el directorio `src`.
     `k6 run script.js`
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
-## 🛰️USO
-## ⏳INSTALACION2
+## USO
+## 🛰️METODOS
  
 #### REST API
 
