@@ -8,7 +8,7 @@ Esta API esta desarrollada para encontrar similitudes de 4 bases Nitrogenadas en
  - [Problema](#PROBLEMA)
  - [Solución](#SOLUCION)
  - [Instalación](#INSTALACION)
- - [Uso](#USO)
+ - [Modo de uso](#USO)
  - [Quick Reference](#quick-reference)
  - [Desplegada en AWS](#deploying)
 
@@ -108,32 +108,32 @@ Ya con estos parametros, !! Realicemos esta tarea !!
 
 El api esta implementada en el directorio `src`.
 
-### Instala los paquetes de dependencias
+#### Instala los paquetes de dependencias
 
     `npm install`
 
-### Corre el servidor en desarrollo
+#### Corre el servidor en desarrollo
 
     `npm run dev`
 
-### Corre las pruebas de integracion 
+#### Corre las pruebas de integracion 
 
     `npm run test`
 
-### Corre las pruebas de stress  
+#### Corre las pruebas de stress  
 
     `k6 run script.js`
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
 
 
-### REST API
+#### REST API
 
 La REST API tiene los siguientes endpoints
 
-#### /api/mutant/
+##### /api/mutant/
 
-##### Peticion al servidor publico
+###### Peticion al servidor publico
 
 `POST http://54.175.116.27:3001/api/mutant HTTP/1.1`
 
@@ -142,7 +142,7 @@ La REST API tiene los siguientes endpoints
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
 }`
 
-### Peticion al servidor local
+###### Peticion al servidor local
 
 POST http://localhost:3001/api/mutant HTTP/1.1
 content-type:application/json
@@ -150,7 +150,7 @@ content-type:application/json
     "dna":["GTGCGA", "CGGTGC", "TTATGT", "AGATTG", "CTCCTA", "TCACTG"]
 }
 
-### Response
+##### Response
 
     HTTP/1.1 200 OK
     Date: Thu, 24 Feb 2011 12:36:30 GMT
