@@ -123,13 +123,13 @@ El api esta implementada en el directorio `src`.
     `k6 run script.js`
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
-# REST API
+## REST API
 
 La REST API tiene los siguientes endpoints
 
-## /api/mutant/
+### /api/mutant/
 
-### Peticion al servidor publico
+#### Peticion al servidor publico
 
 `POST http://54.175.116.27:3001/api/mutant HTTP/1.1`
 
