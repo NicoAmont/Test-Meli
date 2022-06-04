@@ -96,7 +96,7 @@ Ya con estos parametros, !! Realicemos esta tarea !!
  - facil lectura
  
  
- ## 🛰️USO
+ 
  
  ## ⏳INSTALACION
  
@@ -125,7 +125,7 @@ El api esta implementada en el directorio `src`.
     `k6 run script.js`
 Nota: Debes estar en el mismo nivel de script.js y tener instalado globlament k6
 
-
+## 🛰️USO
 
 #### REST API
 
