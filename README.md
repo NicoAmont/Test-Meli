@@ -51,4 +51,12 @@ Se debe desarrollar el anterior problema de tal manera que:
 - Se debe tener en cuenta que se reciben fluctuaciones de trafico agresivas ( de 100 y 1 000 000 rqps)
 - Se debe tener un test coverage > 80%
 
+
+Ya con estos parametros, !! Realicemos esta tarea !!
+<img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
+
+ ## 😵‍💫SOLUCION
+ 
+
+
 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1654358991/Captura_lpbwyf.png" width="100%">
